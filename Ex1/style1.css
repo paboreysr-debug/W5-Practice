@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    gap: 10px; 
+    background-color: #333;
+    padding: 10px;
+  }
+  .item {
+    background-color: #3182ce;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  .a {
+    grid-column: span 3;
+  }
+  .b {
+    grid-row: span 2;
+  }
+  .e {
+    grid-column: span 2;
+  }
+  .f{
+    grid-column: span 3;
+  }
